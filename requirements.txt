@@ -1,4 +1,5 @@
-tensorflow==2.15.0
+tensorflow==2.10
+keras==2.10
 pandas
 numpy
 scikit-learn
