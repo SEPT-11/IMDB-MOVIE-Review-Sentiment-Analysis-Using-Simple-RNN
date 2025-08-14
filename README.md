@@ -48,7 +48,7 @@ model.add(Embedding(input_dim=max_features, output_dim=128, input_length=max_len
 model.add(SimpleRNN(128, activation='relu'))
 model.add(Dense(1, activation='sigmoid'))
 
-⚙️ Training
+## ⚙️ Training
 
 Loss: binary_crossentropy
 
@@ -60,8 +60,41 @@ Epochs: Configurable (default: 5–10)
 
 Validation Split: 20%
 
-📊 Results
+## 📊 Results
 
 Training Accuracy: ~91.3%
 
 Accuracy may vary based on hyperparameters and system setup.
+
+## ▶️ How to Run
+
+#### 1. Clone this repository
+
+        git clone https://github.com/SEPT-11/IMDB-MOVIE-Review-Sentiment-Analysis-Using-Simple-RNN
+        cd IMDB-MOVIE-Review-Sentiment-Analysis-Using-Simple-RNN
+
+
+
+#### 2. Install dependencies
+
+        pip install -r requirements.txt
+
+
+#### 3. Run the script
+
+        python -m streamlit run main.py
+
+## 📈 Example Output
+    Epoch 1/5
+     - loss: 0.58 - accuracy: 0.69
+    Epoch 5/5
+     - loss: 0.39 - accuracy: 0.83
+
+## 📌 References
+
+[TensorFlow IMDB Dataset Documentation](https://www.tensorflow.org/api_docs/python/tf/keras/datasets/imdb)
+
+[SimpleRNN Keras Layer](https://keras.io/api/layers/recurrent_layers/simple_rnn/)
+
+## 📜 License
+This project is licensed under the **GNU General Public License v3.0** – see the [LICENSE](LICENSE) file for details. 
