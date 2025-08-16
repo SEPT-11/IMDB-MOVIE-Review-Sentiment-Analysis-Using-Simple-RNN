@@ -1,6 +1,6 @@
 ## 🎬 IMDB Movie Review Sentiment Analysis – Simple RNN
 
-### Due to too much positive review within the dataset the model isn't performing as desired we are working on fixing the problem till then look for other repos within future,as soon as the problem will be fixed this message would be removed. Thank You
+### Due to too much positive review within the dataset the model isn't performing as desired. We are working on fixing the problem till then look for other repos within future,as soon as the problem will be fixed this message would be removed. Thank You
 
 
 This project uses a Simple Recurrent Neural Network (RNN) to classify IMDB movie reviews as positive or negative sentiments.
